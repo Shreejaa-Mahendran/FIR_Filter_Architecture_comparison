@@ -6,13 +6,13 @@ This repository contains Verilog implementations and analysis of various **8-tap
 The objective is to compare these architectures based on **area utilization**, **power consumption**, and **speed**, and identify suitable designs for specific application requirements.
 
 ## 🧩 Architectures Implemented
-| S.No | Adder Used | Multiplier Used | File Name |
-|------|-------------|----------------|------------|
-| 1 | Ripple Carry Adder | Vedic Multiplier | `FIR_RCA_VEDIC.v` |
-| 2 | Carry Save Adder | Vedic Multiplier | `FIR_CSA_VEDIC.v` |
-| 3 | Carry Select Adder | Vedic Multiplier | `FIR_CSLA_VEDIC.v` |
-| 4 | Carry Select Adder | Reversible Multiplier | `FIR_CSLA_REV.v` |
-| 5 | Kogge-Stone Adder | Reversible Multiplier | `FIR_KSA_REV.v` |
+| S.No | Adder Used | Multiplier Used | 
+|------|-------------|----------------|
+| 1 | Ripple Carry Adder | Vedic Multiplier | 
+| 2 | Carry Save Adder | Vedic Multiplier |
+| 3 | Carry Select Adder | Vedic Multiplier |
+| 4 | Carry Select Adder | Reversible Multiplier |
+| 5 | Kogge-Stone Adder | Reversible Multiplier |
 
 Each design maintains the same number of **area registers (64)** for fair comparison, while differing in logic element count, operational frequency, and power.
 
